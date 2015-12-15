@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6WH-2f-eI1" customClass="CLMarkButton">
+                                <rect key="frame" x="29" y="40" width="80" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="CBE-qc-Umt"/>
+                                    <constraint firstAttribute="width" constant="80" id="cG7-lD-NQx"/>
+                                </constraints>
+                                <state key="normal" title="单选1">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LNT-hv-eNw" customClass="CLMarkButton">
+                                <rect key="frame" x="29" y="118" width="80" height="30"/>
+                                <state key="normal" title="单选3">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXS-Sp-fOa" customClass="CLMarkButton">
+                                <rect key="frame" x="29" y="78" width="80" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="sjb-07-VIy"/>
+                                    <constraint firstAttribute="height" constant="30" id="xzQ-BT-NeS"/>
+                                </constraints>
+                                <state key="normal" title="单选2">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="sjb-07-VIy"/>
+                                        <exclude reference="xzQ-BT-NeS"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bw-st-yo9" customClass="CLMarkButton">
+                                <rect key="frame" x="129" y="78" width="80" height="30"/>
+                                <state key="normal" title="多选2">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Abc-aK-Ouv" customClass="CLMarkButton">
+                                <rect key="frame" x="129" y="40" width="80" height="30"/>
+                                <state key="normal" title="多选1">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hfb-TG-uYM" customClass="CLMarkButton">
+                                <rect key="frame" x="129" y="118" width="80" height="30"/>
+                                <state key="normal" title="多选3">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pXS-Sp-fOa" firstAttribute="width" secondItem="6WH-2f-eI1" secondAttribute="width" id="16x-2e-3cI"/>
+                            <constraint firstItem="Abc-aK-Ouv" firstAttribute="leading" secondItem="6WH-2f-eI1" secondAttribute="trailing" constant="20" id="1Jg-7f-G0o"/>
+                            <constraint firstItem="Hfb-TG-uYM" firstAttribute="width" secondItem="6WH-2f-eI1" secondAttribute="width" id="5O1-WW-J57"/>
+                            <constraint firstItem="pXS-Sp-fOa" firstAttribute="centerX" secondItem="6WH-2f-eI1" secondAttribute="centerX" id="5zc-jc-bqH"/>
+                            <constraint firstItem="pXS-Sp-fOa" firstAttribute="height" secondItem="6WH-2f-eI1" secondAttribute="height" id="AgW-FW-8e6"/>
+                            <constraint firstItem="pXS-Sp-fOa" firstAttribute="top" secondItem="6WH-2f-eI1" secondAttribute="bottom" constant="8" id="GeG-dS-5Sn"/>
+                            <constraint firstItem="Hfb-TG-uYM" firstAttribute="leading" secondItem="LNT-hv-eNw" secondAttribute="trailing" constant="20" id="I62-BL-Dlo"/>
+                            <constraint firstItem="Abc-aK-Ouv" firstAttribute="width" secondItem="6WH-2f-eI1" secondAttribute="width" id="Kjv-dP-1Rl"/>
+                            <constraint firstItem="LNT-hv-eNw" firstAttribute="top" secondItem="pXS-Sp-fOa" secondAttribute="bottom" constant="10" id="Lf7-5U-1Z7"/>
+                            <constraint firstItem="Hfb-TG-uYM" firstAttribute="centerY" secondItem="LNT-hv-eNw" secondAttribute="centerY" id="Rws-2u-GT6"/>
+                            <constraint firstItem="6WH-2f-eI1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="SdF-hr-yYG"/>
+                            <constraint firstItem="6WH-2f-eI1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="29" id="TFb-Nb-mpx"/>
+                            <constraint firstItem="LNT-hv-eNw" firstAttribute="height" secondItem="6WH-2f-eI1" secondAttribute="height" id="TMW-P5-UCl"/>
+                            <constraint firstItem="Abc-aK-Ouv" firstAttribute="height" secondItem="6WH-2f-eI1" secondAttribute="height" id="bxL-uN-bI3"/>
+                            <constraint firstItem="Hfb-TG-uYM" firstAttribute="height" secondItem="6WH-2f-eI1" secondAttribute="height" id="d3J-rq-EtF"/>
+                            <constraint firstItem="Abc-aK-Ouv" firstAttribute="centerY" secondItem="6WH-2f-eI1" secondAttribute="centerY" id="dDm-Qb-7A0"/>
+                            <constraint firstItem="6bw-st-yo9" firstAttribute="width" secondItem="6WH-2f-eI1" secondAttribute="width" id="eU9-GU-YOn"/>
+                            <constraint firstItem="pXS-Sp-fOa" firstAttribute="height" secondItem="6WH-2f-eI1" secondAttribute="height" id="i9y-2b-zpj"/>
+                            <constraint firstItem="6bw-st-yo9" firstAttribute="height" secondItem="6WH-2f-eI1" secondAttribute="height" id="pX2-o4-58W"/>
+                            <constraint firstItem="6bw-st-yo9" firstAttribute="centerY" secondItem="pXS-Sp-fOa" secondAttribute="centerY" id="pki-mb-lXe"/>
+                            <constraint firstItem="pXS-Sp-fOa" firstAttribute="width" secondItem="6WH-2f-eI1" secondAttribute="width" id="qNZ-ze-EvV"/>
+                            <constraint firstItem="6bw-st-yo9" firstAttribute="leading" secondItem="pXS-Sp-fOa" secondAttribute="trailing" constant="20" id="qrb-ec-twI"/>
+                            <constraint firstItem="LNT-hv-eNw" firstAttribute="width" secondItem="6WH-2f-eI1" secondAttribute="width" id="w7O-rs-UBJ"/>
+                            <constraint firstItem="LNT-hv-eNw" firstAttribute="centerX" secondItem="6WH-2f-eI1" secondAttribute="centerX" id="zMT-ny-yby"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="AgW-FW-8e6"/>
+                                <exclude reference="qNZ-ze-EvV"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="checkA" destination="Abc-aK-Ouv" id="Rx8-t4-jYK"/>
+                        <outlet property="checkB" destination="6bw-st-yo9" id="xCC-KK-Hnb"/>
+                        <outlet property="checkC" destination="Hfb-TG-uYM" id="8OW-Mt-jOP"/>
+                        <outlet property="radioA" destination="6WH-2f-eI1" id="9Dl-th-apb"/>
+                        <outlet property="radioB" destination="pXS-Sp-fOa" id="psN-eM-J5E"/>
+                        <outlet property="radioC" destination="LNT-hv-eNw" id="D2b-qw-VvJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="353"/>
+        </scene>
+    </scenes>
+</document>
