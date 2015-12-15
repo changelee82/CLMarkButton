@@ -17,16 +17,17 @@
 可使用自动布局或代码添加该控件； <br />
 在xib文件中使用此控件时，请选择按钮的Type为Custom； <br />
 
-CLMarkButton *button = [[CLMarkButton alloc] initWithFrame:CGRectMake(20, 180, 80, 30)];
-button.type = CLMarkTypeSingleCheck;  // 设置按钮类型
-button.groupId = 10001;   // 设置按钮的分组
-[button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];  // 添加点击事件
-[self.view addSubview:button];
+    CLMarkButton *button = [[CLMarkButton alloc] initWithFrame:CGRectMake(20, 180, 80, 30)];
+    button.type = CLMarkTypeSingleCheck;  // 设置按钮类型
+    button.groupId = 10001;   // 设置按钮的分组
+    [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];  // 添加点击事件
+    [self.view addSubview:button];
 
-- (void)buttonClick:(CLMarkButton *)sender
-{
-    [sender buttonDidClick];  // 执行按钮被点击事件，刷新同组按钮状态
-}
+    - (void)buttonClick:(CLMarkButton *)sender
+    {
+        [sender buttonDidClick];  // 执行按钮被点击事件，刷新同组按钮状态
+    }
+
 详细的示例请参考代码。 <br />
 
 历史版本
