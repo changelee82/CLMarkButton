@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "46DDC0E58446EF897B451222F93E24D8B5A05DE2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "4cc2c789-f6e4-2548-9749-114e8682f433++8783" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "46DDC0E58446EF897B451222F93E24D8B5A05DE2" : 0,
+    "4cc2c789-f6e4-2548-9749-114e8682f433++8783" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3F6DE259-E238-40D8-B43E-D5857B683AA9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "46DDC0E58446EF897B451222F93E24D8B5A05DE2" : "CLMarkButton\/",
+    "4cc2c789-f6e4-2548-9749-114e8682f433++8783" : "CLMarkButton\/CLMarkButton\/CLMarkButton\/Resources\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CLMarkButton",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CLMarkButton.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/changelee82\/CLMarkButton.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "46DDC0E58446EF897B451222F93E24D8B5A05DE2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.33\/svn\/IOS-ChaChong",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4cc2c789-f6e4-2548-9749-114e8682f433++8783"
+    }
+  ]
+}

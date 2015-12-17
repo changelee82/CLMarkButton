@@ -14,11 +14,11 @@
 NSString *const CLMarkButtonChangeStateNotification = @"CLMarkButtonChangeStateNotification";
 
 /** Check按钮选中状态图标 */
-static NSString *const kCheckSelectedImage = @"check_selected";
+static NSString *const kCheckSelectedImage   = @"check_selected";
 /** Check按钮未选中状态图标 */
 static NSString *const kCheckUnselectedImage = @"check_unselected";
 /** Radio按钮选中状态图标 */
-static NSString *const kRadioSelectedImage = @"radio_selected";
+static NSString *const kRadioSelectedImage   = @"radio_selected";
 /** Radio按钮未选中状态图标 */
 static NSString *const kRadioUnselectedImage = @"radio_unselected";
 

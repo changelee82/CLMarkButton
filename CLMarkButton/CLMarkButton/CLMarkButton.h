@@ -4,9 +4,9 @@
 //
 //  Created by 李辉 on 15/12/15.
 //  Copyright © 2015年 李辉. All rights reserved.
-//
-//  在xib文件中使用此控件时，选择的Type为Custom
 //  https://github.com/changelee82/CLMarkButton
+//
+//  在xib文件中使用此控件时，请选择按钮的Type为Custom
 //  
 
 #import <UIKit/UIKit.h>
